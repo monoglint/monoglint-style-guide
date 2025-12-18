@@ -1,0 +1,2 @@
+# monoglint-style-guide
+type

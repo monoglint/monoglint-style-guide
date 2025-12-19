@@ -49,6 +49,15 @@ int main() {
   NO
   
 **functions & methods**
+- snake case
 
+**brownie points**
+- follow nasa rule of 10
+- follow google indenting style
+- don't use a single macro
+- use c++ 11 for a less polluted namespace
+- limit function size to 2 lines
+- never use while loops (wait nevermind thats in nasa's rule of 10 i think i forge)
+- compile with only ucrt64 (never even look in the general direction of msvc)
 
 

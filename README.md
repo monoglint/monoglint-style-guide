@@ -1,7 +1,7 @@
 # monoglint-style-guide
 
 **biggest thing to get out of this**
-- PREFIXES ONLY CLASSIFY TYPES. DO NOT USE PREFIXES FOR CASUAL VARIABLE NAMES OR LITERALLY ANYTHING ELSE. DON'T BE LAZY AND MAKE YOUR CODE MAKE SENSE
+- PREFIXES ONLY CLASSIFY TYPES. DO NOT USE PREFIXES FOR CASUAL VARIABLE NAMES OR LITERALLY ANYTHING ELSE. DON'T BE LAZY AND MAKE YOUR CODE MAKE SENSE.
 ```cpp
 using t_node_ptr = std::unique_ptr<node>;
 
@@ -25,6 +25,15 @@ int main() {
 - Namespace contents require an indent.
 - Title namespaces in snake_case.
 
+**constants (especially compile-time)** (enum values, constexprs, consts, m-m-acr)  
+- JUST_LIKE_THIS.
+
+**unscoped enums**
+- stop.
+
+**macros**
+- stop.
+
 **all types**
 - Title all types (classes, structs, typedefs, enums) in snake_case.
 - Prefix all type names.
@@ -38,8 +47,7 @@ int main() {
 - DO NOT USE PREFIXES IN VARIABLE NAMES
 - but what if-
   NO
-
-
+  
 **functions & methods**
 
 
